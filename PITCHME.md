@@ -32,13 +32,13 @@ PythonとSlack連携でアプリ作成しました。
 
 ## DialogFlowでのチャレンジ
 
-本当はボットでの受け答えはDialogFlowを利用したかったが、、、、
+本当はボット内の処理をDialogFlowで行いたかったが、、、、
 
 　1. 検索キーワードとして、料理やお酒の種類を抜き出し
 
-　2. Fulfillment（Google Cloud Function）を利用して、ぐるナビAPI経由でお店情報取得
+　2. Fulfillmentを利用して、ぐるナビAPI経由でお店情報取得
 
-　3. JSONで取得したデータからオススメのお店を選択してSlackボットへ回答
+　3. 取得したデータからオススメのお店を絞ってSlackボットへ
 
 しかし、3のFulfillmentでの外部API呼び出しでエラー問題が解決できず、、、。
 
