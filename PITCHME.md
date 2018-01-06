@@ -1,4 +1,4 @@
-# teamAIK
+# Team AIK
 
 発表資料
 
