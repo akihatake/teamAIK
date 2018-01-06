@@ -18,11 +18,11 @@ hatakeyama
 
 PythonとSlack連携でアプリ作成しました。
 
-　1. Slackボット
-　2. Cloud9上のPython
-　3. ぐるなびAPI
-　4. Pythonでオススメ１店舗に絞り込み
-　5. Slackで返答
+　　1. Slackボット
+　　2. Cloud9上のPython
+　　3. ぐるなびAPI
+　　4. Pythonでオススメ１店舗に絞り込み
+　　5. Slackで返答
 
 ---
 
@@ -34,10 +34,10 @@ PythonとSlack連携でアプリ作成しました。
 
 条件付き検索も柔軟に対応できる事を目論んでいた。
 
- 1. DialogFlowにてボットで受け取った入力文字列解析
- 2. 検索キーワードとして、料理やお酒の種類を抜き出し
- 3. Fulfillment（Google Cloud Function）を利用して、ぐるナビAPI経由でお店情報取得
- 4. JSONで取得したデータからオススメのお店を選択してSlackボットへ回答
+ 　1. DialogFlowにてボットで受け取った入力文字列解析
+ 　2. 検索キーワードとして、料理やお酒の種類を抜き出し
+ 　3. Fulfillment（Google Cloud Function）を利用して、ぐるナビAPI経由でお店情報取得
+ 　4. JSONで取得したデータからオススメのお店を選択してSlackボットへ回答
 
 しかし、3のFulfillmentでの外部API呼び出しでエラー問題が解決できず、、、。
 
