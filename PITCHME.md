@@ -18,15 +18,15 @@ hatakeyama
 
 PythonとSlack連携でアプリ作成しました。
 
-　　1. Slackボット
+　1. Slackボット
 
-　　2. Cloud9上のPython
+　2. Cloud9上のPython
 
-　　3. ぐるなびAPI
+　3. ぐるなびAPI
 
-　　4. Pythonでオススメ１店舗に絞り込み
+　4. Pythonでオススメ１店舗に絞り込み
 
-　　5. Slackで返答
+　5. Slackで返答
 
 ---
 
